@@ -15,3 +15,4 @@ Followed by
 ```
 $ docker-compose up
 ```
+After running `docker-compose up` you can access the project in the browser at `localhost:8086/`. Anything that is put into the `src` folder will be served to the client.
