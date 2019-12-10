@@ -1,2 +1,2 @@
-FROM php:apache
-WORKDIR /var/www/html/
+FROM webdevops/php-apache:7.2
+WORKDIR /app/
