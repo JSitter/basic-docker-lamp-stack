@@ -4,9 +4,9 @@ services:
     image: mysql:5.7
     environment:
       MYSQL_ROOT_PASSWORD: secret_passs
-      MYSQL_DATABASE: app_db
-      MYSQL_USER: php_web
-      MYSQL_PASSWORD: devp@ss
+      MYSQL_DATABASE: appdb
+      MYSQL_USER: user
+      MYSQL_PASSWORD: pass
     expose:
         - "3306"
     volumes:
